@@ -1,0 +1,21 @@
+<Service BluetoothType="org.bluetooth.service.ReedSwitch" BluetoothUUID="0x25104E8300001000800000805F9B34FB">
+    <Characteristics>
+        <Include Name="State" Mandatory="true" BluetoothType="org.bluetooth.characteristic.State" BluetoothUUID="0x25104E8400001000800000805F9B34FB">
+            <Properties>
+                <Read>true</Read>
+                <Write>false</Write>
+                <Notify>true</Notify>
+                <Authenticated>false</Authenticated>
+            </Properties>
+            <Descriptors>
+                <UserDescription>The state of the reed switch</UserDescription>
+                <PresentationFormat>
+                    <Format>
+                        <Boolean/>
+                    </Format>
+                    <Description>The state of the reed switch</Description>
+                </PresentationFormat>
+            </Descriptors>
+        </Include>
+    </Characteristics>
+</Service>

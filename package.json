@@ -1,0 +1,17 @@
+{
+  "name": "iotjs-reed-switch-profile",
+  "version": "0.0.1",
+  "description": "Reed switch Bluetooth profile.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/iotjs-reed-switch-profile"
+  },
+  "author": {
+    "name": "Evan Tseng",
+    "email": "evan@tseng.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanxd/iotjs-reed-switch-profile/issues"
+  }
+}

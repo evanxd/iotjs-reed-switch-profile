@@ -1,0 +1,29 @@
+{
+  "Service": {
+    "Characteristics": {
+      "Include": {
+        "Properties": {
+          "Read": "true",
+          "Write": "false",
+          "Notify": "true",
+          "Authenticated": "false"
+        },
+        "Descriptors": {
+          "UserDescription": "The state of the reed switch",
+          "PresentationFormat": {
+            "Format": {
+              "Boolean": ""
+            },
+            "Description": "The state of the reed switch"
+          }
+        },
+        "_Name": "State",
+        "_Mandatory": "true",
+        "_BluetoothType": "org.bluetooth.characteristic.State",
+        "_BluetoothUUID": "0x25104E8400001000800000805F9B34FB"
+      }
+    },
+    "_BluetoothType": "org.bluetooth.service.ReedSwitch",
+    "_BluetoothUUID": "0x25104E8300001000800000805F9B34FB"
+  }
+}
